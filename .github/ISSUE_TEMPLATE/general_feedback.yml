@@ -1,0 +1,19 @@
+name: General Feedback
+description: Share your thoughts or feedback about BetterBlockZ
+title: "[Feedback] "
+labels: [feedback]
+
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: Write your feedback, ideas, or impressions here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (optional)
+      description: Add screenshots or mockups if they help explain your feedback.
