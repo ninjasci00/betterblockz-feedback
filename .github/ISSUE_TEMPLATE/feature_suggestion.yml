@@ -1,0 +1,27 @@
+name: Feature/Texture suggestion
+description: Pitch your idea for BetterBlockZ
+title: "[Suggestion] "
+labels: [enhancement]
+
+body:
+  - type: dropdown
+    id: suggestion-type
+    attributes:
+      label: Type of suggestion
+      description: Choose the category that best fits your idea
+      options:
+        - CTM support
+        - Texture correction
+        - New texture
+        - Block variation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: Describe your feature or texture suggestion.
+    validations:
+      required: true
