@@ -10,3 +10,6 @@ Please use the appropriate **issue form** when opening an issue:
 
 For translation contributions, use the dedicated repository:  
 → https://github.com/ninjasci00/betterblockz-community ←
+
+
+Issues and discussions in this repository are provided for feedback purposes only.
