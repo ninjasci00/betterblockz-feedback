@@ -1,0 +1,59 @@
+name: Bug report
+description: Report a problem with BetterBlockZ
+title: "[Bug] "
+labels: [bug]
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps to reproduce the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What you thought should happen.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: minecraft-version
+    attributes:
+      label: Minecraft version
+      options:
+        - Forge 1.20.1 
+        - Neoforge 1.21.1 
+    validations:
+      required: true
+
+  - type: input
+    id: betterblockz-version
+    attributes:
+      label: BetterBlockZ version
+      description: Enter the version number you are using.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Add screenshots if applicable.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
